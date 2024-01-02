@@ -1,0 +1,32 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    max-width: 80vw;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div ul {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    margin: 0px;
+}
+
+.navItems li a {
+    text-decoration: none;
+}
